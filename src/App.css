@@ -1,0 +1,38 @@
+body{
+  background-image: linear-gradient(rgb(70, 202, 228),pink);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color:black;
+}
+.App{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: blue;
+  font-size: 40px;
+  border:2px solid white;
+  box-sizing:border-box;
+  padding:10px;
+}
+.table{
+  color:black;
+  background-color: white;
+  position:relative;
+  top:100px;
+  width:80%;
+  left:100px;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color:black;
+  position:relative;
+  top:40px;
+}
+button{
+  border-radius: 25px;
+  height:40px;
+  width:200px;
+}
+
